@@ -5,19 +5,19 @@ project. `PACKAGE_VERSION` will be replaced with the version in your `package.js
 
 ## Setup
 
-In your `.pracelrc`, add the `@cimonitor/parcel-transformer-package-version` transformer for the files you want use the
+In your `.pracelrc`, add the `@futureportal/parcel-transformer-package-version` transformer for the files you want use the
 package version in. In the example below we would like to use the package version in a `.tsx` file:
 
 ```pracelrc
 {
     "extends": "@parcel/config-default",
     "transformers": {
-        "*.{ts,tsx}": ["@cimonitor/parcel-transformer-package-version", "@parcel/transformer-typescript-tsc"],
+        "*.{ts,tsx}": ["@futureportal/parcel-transformer-package-version", "@parcel/transformer-typescript-tsc"],
     }
 }
 ```
 
-Add the `@cimonitor/parcel-transformer-package-version` package to your package.json with either yarn or npm.
+Add the `@futureportal/parcel-transformer-package-version` package to your package.json with either yarn or npm.
 
 Now, `PACKAGE_VERSION` will be replaced in the compiled code for the given file transformers.
 

@@ -1,11 +1,11 @@
 {
-    "name": "@cimonitor/parcel-transformer-package-version",
-    "version": "0.1.0",
+    "name": "@futureportal/parcel-transformer-package-version",
+    "version": "1.0.0",
     "description": "A transformer plugin for Parcel that replaces PACKAGE_VERSION with version from your package.json",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/CIMonitor/parcel-transformer-package-version.git"
+        "url": "git+https://github.com/FuturePortal/parcel-transformer-package-version.git"
     },
     "dependencies": {
         "@parcel/plugin": "^2.3.2"
@@ -28,7 +28,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/CIMonitor/parcel-transformer-package-version/issues"
+        "url": "https://github.com/FuturePortal/parcel-transformer-package-version/issues"
     },
-    "homepage": "https://github.com/CIMonitor/parcel-transformer-package-version"
+    "homepage": "https://github.com/FuturePortal/parcel-transformer-package-version"
 }
