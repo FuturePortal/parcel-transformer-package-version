@@ -1,34 +1,34 @@
 {
-    "name": "@futureportal/parcel-transformer-package-version",
-    "version": "1.0.0",
-    "description": "A transformer plugin for Parcel that replaces PACKAGE_VERSION with version from your package.json",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/FuturePortal/parcel-transformer-package-version.git"
-    },
-    "dependencies": {
-        "@parcel/plugin": "^2.3.2"
-    },
-    "engines": {
-        "node": ">= 16.0.0",
-        "parcel": "^2.3.2"
-    },
-    "keywords": [
-        "parcel",
-        "transformer",
-        "package",
-        "version",
-        "plugin",
-        "parceljs"
-    ],
-    "author": {
-        "name": "Rick van der Staaij",
-        "url": "https://rick.nu"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/FuturePortal/parcel-transformer-package-version/issues"
-    },
-    "homepage": "https://github.com/FuturePortal/parcel-transformer-package-version"
+	"name": "@futureportal/parcel-transformer-package-version",
+	"version": "1.0.0",
+	"description": "A transformer plugin for Parcel that replaces PACKAGE_VERSION with version from your package.json",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FuturePortal/parcel-transformer-package-version.git"
+	},
+	"dependencies": {
+		"@parcel/plugin": "^2.3.2"
+	},
+	"engines": {
+		"node": ">= 16.0.0",
+		"parcel": "^2.3.2"
+	},
+	"keywords": [
+		"parcel",
+		"transformer",
+		"package",
+		"version",
+		"plugin",
+		"parceljs"
+	],
+	"author": {
+		"name": "Rick van der Staaij",
+		"url": "https://rick.nu"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/FuturePortal/parcel-transformer-package-version/issues"
+	},
+	"homepage": "https://github.com/FuturePortal/parcel-transformer-package-version"
 }
